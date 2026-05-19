@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rancho Las Guayabillas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-icon">&#9762;</span>
+        <span class="logo-text">Las Guayabillas</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#ganado">Ganado</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Tradición y Calidad Ganadera</p>
+      <h1 class="hero-title">Rancho<br /><span>Las Guayabillas</span></h1>
+      <p class="hero-subtitle">Cría y engorda de ganado bovino de primera calidad.<br />Generaciones de dedicación, pasión y respeto por la tierra.</p>
+      <div class="hero-actions">
+        <a href="#ganado" class="btn btn-primary">Conocer Ganado</a>
+        <a href="#contacto" class="btn btn-outline">Contáctanos</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Desliza</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-bar">
+    <div class="stats-container">
+      <div class="stat-item">
+        <span class="stat-number">25+</span>
+        <span class="stat-label">Años de Experiencia</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">500+</span>
+        <span class="stat-label">Cabezas de Ganado</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">1,200</span>
+        <span class="stat-label">Hectáreas de Pastizal</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">100%</span>
+        <span class="stat-label">Ganado Certificado</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="section nosotros" id="nosotros">
+    <div class="container two-col">
+      <div class="col-text">
+        <p class="section-eyebrow">Nuestra Historia</p>
+        <h2 class="section-title">Un Rancho Forjado con Esfuerzo y Tradición</h2>
+        <p class="section-body">Rancho Las Guayabillas nació de la visión de una familia comprometida con la tierra y el ganado. Con más de 25 años en la industria pecuaria, hemos construido una reputación sólida basada en la calidad de nuestros animales, el manejo responsable del pastizal y el trato justo con nuestros clientes y socios.</p>
+        <p class="section-body">Cada res que sale de nuestra propiedad refleja el cuidado, la alimentación balanceada y el manejo veterinario de excelencia que aplicamos día a día en cada rincón del rancho.</p>
+        <ul class="check-list">
+          <li>Manejo ganadero sustentable</li>
+          <li>Alimentación natural y suplementada</li>
+          <li>Control sanitario permanente</li>
+          <li>Registros genealógicos completos</li>
+        </ul>
+      </div>
+      <div class="col-image">
+        <div class="image-frame nosotros-img">
+          <div class="img-placeholder">
+            <span class="placeholder-icon">&#127758;</span>
+            <p>Foto del Rancho</p>
+          </div>
+        </div>
+        <div class="badge-float">
+          <span class="badge-num">25+</span>
+          <span class="badge-txt">años de<br/>tradición</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GANADO -->
+  <section class="section ganado-section" id="ganado">
+    <div class="container">
+      <div class="section-header centered">
+        <p class="section-eyebrow">Nuestro Ganado</p>
+        <h2 class="section-title">Razas de Alta Calidad</h2>
+        <p class="section-desc">Trabajamos con las razas más reconocidas del mercado, seleccionadas por su rendimiento, adaptabilidad y calidad de carne.</p>
+      </div>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">&#128004;</div>
+          <h3 class="card-title">Brahman</h3>
+          <p class="card-text">Raza altamente adaptada al clima tropical. Reconocida por su resistencia al calor, tolerancia a parásitos y excelente conversión alimenticia.</p>
+          <ul class="card-list">
+            <li>Alta resistencia al calor</li>
+            <li>Excelente temperamento</li>
+            <li>Buena ganancia de peso</li>
+          </ul>
+        </div>
+        <div class="card card-featured">
+          <div class="card-badge">Principal</div>
+          <div class="card-icon">&#127803;</div>
+          <h3 class="card-title">Charolais</h3>
+          <p class="card-text">Raza de carne por excelencia, valorada mundialmente por su musculatura excepcional, rápido crecimiento y carne de primera calidad.</p>
+          <ul class="card-list">
+            <li>Alto rendimiento en canal</li>
+            <li>Crecimiento acelerado</li>
+            <li>Carne de alta calidad</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-icon">&#127807;</div>
+          <h3 class="card-title">Simmental</h3>
+          <p class="card-text">Raza doble propósito de origen europeo, reconocida por su gran tamaño, buena producción láctea y excelente aptitud cárnica.</p>
+          <ul class="card-list">
+            <li>Doble propósito</li>
+            <li>Gran tamaño corporal</li>
+            <li>Fácil adaptación</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section servicios" id="servicios">
+    <div class="container">
+      <div class="section-header centered">
+        <p class="section-eyebrow">Lo que Ofrecemos</p>
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <p class="section-desc">Ofrecemos soluciones integrales para productores ganaderos y compradores de ganado en pie y en canal.</p>
+      </div>
+      <div class="servicios-grid">
+        <div class="servicio-item">
+          <div class="servicio-icon">&#127987;</div>
+          <h3>Venta de Ganado en Pie</h3>
+          <p>Toretes, novillos y vacas de reemplazo disponibles todo el año, con certificados sanitarios y registros al día.</p>
+        </div>
+        <div class="servicio-item">
+          <div class="servicio-icon">&#127959;</div>
+          <h3>Engorda Intensiva</h3>
+          <p>Servicio de maquila de engorda para ganado de terceros con dietas balanceadas y supervisión técnica constante.</p>
+        </div>
+        <div class="servicio-item">
+          <div class="servicio-icon">&#128138;</div>
+          <h3>Sementales Registrados</h3>
+          <p>Venta de sementales Brahman y Charolais con EPDs, genealogía y prueba de comportamiento reproductivo.</p>
+        </div>
+        <div class="servicio-item">
+          <div class="servicio-icon">&#128200;</div>
+          <h3>Asesoría Técnica</h3>
+          <p>Consultoría en manejo ganadero, nutrición animal, sanidad y mejoramiento genético del hato.</p>
+        </div>
+        <div class="servicio-item">
+          <div class="servicio-icon">&#127807;</div>
+          <h3>Praderas y Forrajes</h3>
+          <p>Renta de pastizales y venta de heno de alta calidad para productores de la región.</p>
+        </div>
+        <div class="servicio-item">
+          <div class="servicio-icon">&#128666;</div>
+          <h3>Transporte</h3>
+          <p>Traslado de ganado en jaulas acondicionadas con personal capacitado y rutas en toda la región.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="section galeria" id="galeria">
+    <div class="container">
+      <div class="section-header centered">
+        <p class="section-eyebrow">Nuestras Instalaciones</p>
+        <h2 class="section-title">Galería del Rancho</h2>
+      </div>
+      <div class="galeria-grid">
+        <div class="galeria-item g-large">
+          <div class="img-placeholder dark">
+            <span class="placeholder-icon">&#127774;</span>
+            <p>Vista General del Rancho</p>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <div class="img-placeholder dark">
+            <span class="placeholder-icon">&#128004;</span>
+            <p>Hato Principal</p>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <div class="img-placeholder dark">
+            <span class="placeholder-icon">&#127959;</span>
+            <p>Instalaciones</p>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <div class="img-placeholder dark">
+            <span class="placeholder-icon">&#127807;</span>
+            <p>Praderas</p>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <div class="img-placeholder dark">
+            <span class="placeholder-icon">&#127803;</span>
+            <p>Sementales</p>
+          </div>
+        </div>
+      </div>
+      <p class="galeria-note">* Reemplaza los recuadros con fotos reales del rancho para un impacto visual óptimo.</p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section contacto" id="contacto">
+    <div class="container two-col contacto-layout">
+      <div class="col-text">
+        <p class="section-eyebrow light">Hablemos</p>
+        <h2 class="section-title light">¿Listo para Hacer Negocios?</h2>
+        <p class="section-body light">Estamos disponibles para atender tus consultas sobre compra-venta de ganado, servicios y visitas al rancho.</p>
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">&#128205;</span>
+            <div>
+              <strong>Ubicación</strong>
+              <p>Rancho Las Guayabillas<br/>México</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">&#128222;</span>
+            <div>
+              <strong>Teléfono</strong>
+              <p>+52 (000) 000-0000</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">&#128140;</span>
+            <div>
+              <strong>Correo</strong>
+              <p>contacto@lasguayabillas.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">&#128337;</span>
+            <div>
+              <strong>Horario</strong>
+              <p>Lunes a Sábado<br/>7:00 AM – 6:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-form">
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <h3 class="form-title">Envíanos un Mensaje</h3>
+          <div class="form-group">
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" placeholder="Tu nombre" required />
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" placeholder="+52 (000) 000-0000" />
+          </div>
+          <div class="form-group">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" placeholder="tu@correo.com" required />
+          </div>
+          <div class="form-group">
+            <label for="asunto">Asunto</label>
+            <select id="asunto">
+              <option value="">Selecciona un asunto...</option>
+              <option>Compra de Ganado</option>
+              <option>Venta de Ganado</option>
+              <option>Sementales Registrados</option>
+              <option>Asesoría Técnica</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="4" placeholder="Cuéntanos en qué podemos ayudarte..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Enviar Mensaje</button>
+          <div class="form-success" id="formSuccess">
+            &#10003; ¡Mensaje enviado! Nos pondremos en contacto pronto.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="logo-icon large">&#9762;</span>
+        <span class="logo-text large">Las Guayabillas</span>
+        <p class="footer-tagline">Tradición, Calidad y Compromiso Ganadero</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#ganado">Ganado</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios">Ganado en Pie</a></li>
+          <li><a href="#servicios">Engorda Intensiva</a></li>
+          <li><a href="#servicios">Sementales</a></li>
+          <li><a href="#servicios">Asesoría Técnica</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contacto</h4>
+        <p>&#128222; +52 (000) 000-0000</p>
+        <p>&#128140; contacto@lasguayabillas.com</p>
+        <p>&#128205; México</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Rancho Las Guayabillas. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
