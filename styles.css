@@ -374,17 +374,26 @@ body {
   grid-template-rows: auto auto;
   gap: 16px;
 }
-.galeria-item { border-radius: var(--radius); overflow: hidden; }
-.galeria-item .img-placeholder { aspect-ratio: 4/3; }
-.g-large {
-  grid-column: span 2;
+.galeria-item {
+  border-radius: var(--radius); overflow: hidden;
+  aspect-ratio: 4/3; position: relative;
 }
-.g-large .img-placeholder { aspect-ratio: 16/9; }
-.galeria-note {
-  text-align: center; margin-top: 24px;
-  font-size: 13px; color: var(--text-light);
-  font-style: italic;
+.g-large { grid-column: span 2; aspect-ratio: 16/9; }
+.galeria-item img {
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
+  transition: transform .5s ease;
 }
+.galeria-item:hover img { transform: scale(1.05); }
+.galeria-caption {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  padding: 10px 16px;
+  background: linear-gradient(to top, rgba(0,0,0,.65) 0%, transparent 100%);
+  color: var(--white);
+  font-size: 13px; font-weight: 600; letter-spacing: .5px;
+  opacity: 0; transition: opacity .3s ease;
+}
+.galeria-item:hover .galeria-caption { opacity: 1; }
 
 /* ===== CONTACTO ===== */
 .contacto {
