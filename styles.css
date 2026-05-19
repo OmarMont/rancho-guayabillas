@@ -357,7 +357,8 @@ body {
   box-shadow: var(--shadow-sm);
   transform: translateY(-3px);
 }
-.servicio-icon { font-size: 38px; margin-bottom: 16px; }
+.servicio-icon { width: 48px; height: 48px; margin-bottom: 16px; color: var(--gold); }
+.servicio-icon svg { width: 100%; height: 100%; }
 .servicio-item h3 {
   font-family: 'Playfair Display', serif;
   font-size: 20px; color: var(--text-dark);
