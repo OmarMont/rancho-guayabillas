@@ -1,3 +1,6 @@
+// Initialize Lucide icons
+lucide.createIcons();
+
 // Navbar scroll effect
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
